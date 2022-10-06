@@ -1,0 +1,78 @@
+.port-container h3{
+    font-size: 2.7rem;
+    color: rgb(162, 66, 226);
+    text-align: center;
+    font-weight: 500;
+    text-decoration: overline;
+    padding: 0;
+    margin: 6rem 0 1rem 0;
+}
+.port{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding: 50px;
+    
+}
+.port img{
+    width: 100%;
+    transition: 0.2s linear;
+}
+.port img:hover{
+    transform: scale(1.05);
+    
+}
+
+
+/* Companies */
+.company-container {
+    padding: 3rem 0;
+    margin: 3rem 0;
+    box-shadow: 0 0 8px 0 gray;
+}
+.company-container h3{
+    margin: 0rem 0 2.4rem 0;
+    font-weight: 400;
+    padding: 0;
+    color: rgb(162, 66, 226);
+    text-align: center;
+    font-size: 2.2rem;
+}
+.companies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    padding: 40px ;
+    width: 90%;
+    margin: auto;
+}
+
+.companies img{
+    width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    .port{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding: 50px;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .companies{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+        padding: 40px ;
+        width: 90%;
+        margin: auto;
+    }
+    .company-container h3{
+        font-size: 1.8rem;
+    }
+    
+}
