@@ -94,7 +94,7 @@ img {
 /* Showcase */
 
 .showcase {
-  background: url("/images/showcase-cover.jpg") no-repeat;
+  background: url("../images/showcase-cover.jpg") no-repeat;
   background-size: cover;
   height: 80vh;
   padding: 80px 20px 0px 20px;
@@ -311,7 +311,7 @@ img {
 
 .solution {
   margin: auto;
-  background: url("/images/office-yotu.jpg") no-repeat center;
+  background: url("../images/office-yotu.jpg") no-repeat center;
   background-size: cover;
   padding: 3rem 2rem;
   box-shadow: 0 0 2px 0 gray;
